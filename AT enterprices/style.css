@@ -1,0 +1,309 @@
+*
+{
+    padding:0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+
+.menu-bar{
+    background-color: rgb(224, 232, 238);
+    
+    
+}
+.menu-bar ul {
+    text-align:right ;
+    list-style: none;
+    color: black;
+    display: inline-flex;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+ 
+.active, .menu-bar ul li:hover {
+    background: rgb(230, 230, 230);
+    border-radius: 2px;
+}
+
+.menu-bar .fa{
+    margin-left: 8px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(230, 230, 230);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: rgb(230, 240, 252);
+}
+
+.header{
+    
+    margin-left: 100px;
+    display: inline-flex;
+    padding-right: 200px;
+
+
+   
+}
+
+.home{
+    text-align: center;
+    margin: 15px;    
+}
+
+.hoverr{
+    position: absolute;
+    display: flex;
+    
+    
+   
+}
+
+
+.container{
+    width:80%;
+    margin: 10px auto;
+    margin-top: 60px ;
+}
+
+.contact-box{
+    background: #fff;
+    display:flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+
+h1{
+    margin-bottom: 10px;
+
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:#1c00b5
+}
+
+button{
+    background: #1c00b5;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contact-left h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+
+
+.content-1{
+    text-align: left;
+    margin-left: 50px;
+    text-decoration: underline;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+    
+}
+
+.content{
+     /* height: 300px;
+    width: 1190px; */
+    text-align: left;
+    margin: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #dfe2e8;
+
+}
+
+.p1{
+    text-align: left;
+    font-weight: 550;
+    margin-left: 5%;
+    line-height: 25px;
+
+
+}
+
+.p2{
+    text-align: left;
+    font-weight: 550;
+    margin-left: 5%;
+    line-height: 30px;
+}
+
+.row{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+    
+}
+
+.column{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    
+}
+
+.headingh1{
+    margin: 5%;
+    text-decoration: underline;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+.FuturePlan{
+    text-align: center;
+    margin: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #dfe2e8;
+}
+.infu1 p{
+    text-align: left;
+    margin-left: 55px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.future h1{
+    text-align: left;
+    margin-left: 20px;
+    margin: 15px;
+    text-decoration: underline;
+    font-weight: 900;
+    line-height: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pinfu1{
+    text-align: left;
+    font-weight: 600;
+    margin-left: 5%;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.future h2{
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    text-decoration: underline;
+
+}
+
+
+
+
+
